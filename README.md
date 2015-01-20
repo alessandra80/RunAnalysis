@@ -10,13 +10,15 @@ At this point I write a code to do the same with the files that are in the "trai
 The code first set the new wd being the "train" directory and after It applies the same function than before.
 
 Up to now the code produced two data frames: one with the "test" data and another one with the "train" data.
-As they contain the same variables (x, y and subject) the code binds them by row with the rbind function. 
+As they contain the same variables (subject, x vector and y in this order) the code binds them by row with the rbind function. 
 
+At this point I wanted to give variable names to that new "row-bound" Data Frame.
+I decided to give the name "Subject" to the first column as it contains tha number assigned at each subject, and "Activity" to the last column as it contains the labels for the six activities done by the subjects. For the columns between the first and the last (from 2 to 362), I used the feature names listed in the features.txt file.  
+To do all that, the code set the wd to the main "UCI HAR Dataset" directory and by read.table() reads the features file to have the names of columns from 2 to 362. 
+To assign the column names to the Data Frame, the code uses a character vector cointaining "Subject", the feature names and "Activity".
 
-setwd("..")
-#reading text file containing features names
-featName <- read.table("features.txt")
-#assigning columns name  
+Since I am interested only at the feature columns featuring the mean and standard deviation values, I select from my renamed Data Frame, only the columns containing the word "mean" or "std" (plus the first and the last coumns obviously). to do this, I subseted the Data frame using a grep() function. It takes only the column where there are the two words of interest by checking the matching with the column names.
+
 colnames(testTrain) <- c("SubjectNames",as.character(featName[,2]), "Activity")
 #selecting the first and the last columns and those featuring mean and std values
 dataSelect <- testTrain[,grep("Subject|mean|std|Activity", colnames(testTrain))]
