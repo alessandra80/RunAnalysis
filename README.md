@@ -19,9 +19,7 @@ To assign the column names to the Data Frame, the code uses a character vector c
 
 Since I am interested only at the feature columns featuring the mean and standard deviation values, I select from my renamed Data Frame, only the columns containing the word "mean" or "std" (plus the first and the last coumns obviously). to do this, I subseted the Data frame using a grep() function. It takes only the column where there are the two words of interest by checking the matching with the column names.
 
-colnames(testTrain) <- c("SubjectNames",as.character(featName[,2]), "Activity")
-#selecting the first and the last columns and those featuring mean and std values
-dataSelect <- testTrain[,grep("Subject|mean|std|Activity", colnames(testTrain))]
+To name the different activities in the "Activity" column, represented by numeric labels from 1 to 6, the code reads the "activity_labels.txt" file and save the name of the labels. After it assigns at each number in the "Activity" column the corresponding name by a for loop.  
 #reading labels name inside activity_labels file
 actLabels <- read.table("activity_labels.txt", colClasses = c(rep("NULL", 1), rep("character", 1)))
 #creating a vector with the content of the Activity column (number from 1 to 6 corresponding to the six activity )
