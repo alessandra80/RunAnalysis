@@ -19,38 +19,15 @@ To assign the column names to the Data Frame, the code uses a character vector c
 
 Since I am interested only at the feature columns featuring the mean and standard deviation values, I select from my renamed Data Frame, only the columns containing the word "mean" or "std" (plus the first and the last coumns obviously). to do this, I subseted the Data frame using a grep() function. It takes only the column where there are the two words of interest by checking the matching with the column names.
 
-To name the different activities in the "Activity" column, represented by numeric labels from 1 to 6, the code reads the "activity_labels.txt" file and save the name of the labels. After it assigns at each number in the "Activity" column the corresponding name by a for loop.  
-#reading labels name inside activity_labels file
-actLabels <- read.table("activity_labels.txt", colClasses = c(rep("NULL", 1), rep("character", 1)))
-#creating a vector with the content of the Activity column (number from 1 to 6 corresponding to the six activity )
-numberLabels <- dataSelect[,"Activity"] 
-#replacing numbers inside numberLabels with the name of the activities present in the actLabels vector
-for(i in 1:6){
-numberLabels1 <-replace(numberLabels, numberLabels==i,actLabels[i,1])
-numberLabels <- numberLabels1
-}
-#replacing the numeric Activity column in dataSelect with the character vector numberLabels
-dataSelect <- replace(dataSelect, "Activity", numberLabels)
-library(data.table)
-library(tidyr)
-library(dplyr)
-#trasforming dataSelect in a data table
-DTdf <- tbl_df(dataSelect)
-#selecting columns with mean
-DTmean <- DTdf[,grep("Subject|mean|Activity", colnames(DTdf))]
-#selecting columns with std
-DTstd <- DTdf[,grep("Subject|std|Activity", colnames(DTdf))]
-#reading the text file where I put descriptive names for DTmean variables
-variablesMean <- read.table("features_mean.txt")
-#reading the text file where I put descriptive names for DTstd variables
-variablesStd <- read.table("features_std.txt")
-#creating a vector with descriptive names present in variablesMean
-vect <- as.character(variablesMean[,1])
-#creating a vector with descriptive names present in variablesStd
-vect1 <- as.character(variablesStd[,1])
-#assigning descriptive names to DTmean and DTstd
-names(DTmean) <- vect
-names(DTstd)  <- vect1
+To name the different activities in the "Activity" column, represented by numeric labels from 1 to 6, the code reads the "activity_labels.txt" file and save the name of the labels in a vector. After, it assigns at each number in the "Activity" column the corresponding name in the vector by a for loop.  
+
+At this point the code replace the old "Activity" column with the new where there are activity descriptive names.
+It transforms the Data Frame in a Data Table by the function tbl_df() so it can apply dplyr and tidyr function on it.
+I decided to break this Data Table into two Data Tables by the presence of "mean" and "std" in variable names using grep() function. 
+
+Following, I renamed the columns included between the first (Subject) and last column (Activity) in both data Tables with longer but more descriptive names. To do this I wrote two text files featuring the new names, I read them by read.table() and I assigned the name they cointained at the columns of "mean" and "std" Data Tables. 
+On example of the new column names is: TimeDomainBodyAcceleration_X
+In my opinion we can consider we have two variables in one column: "TimeDomainBodyAcceleration" which we could named "Feature" and "X" which we could evaluate as the axis variables and we could names "Axis".  
 #gathering columns from DTmean and DTstd 
 DTmean2 <- gather(DTmean, feature_funct, Mean, -(SubjectNumber), -(Activity))
 DTstd2 <- gather(DTstd, feature_funct, Std, -(SubjectNumber), -(Activity))
