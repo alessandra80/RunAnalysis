@@ -28,8 +28,9 @@ I decided to break this Data Table into two Data Tables by the presence of "mean
 Following, I renamed the columns included between the first (Subject) and last column (Activity) in both data Tables with longer but more descriptive names. To do this I wrote two text files featuring the new names, I read them by read.table() and I assigned the name they cointained at the columns of "mean" and "std" Data Tables. 
 On example of the new column names is: TimeDomainBodyAcceleration_X
 In my opinion we can consider we have two variables in one column: "TimeDomainBodyAcceleration" which we could name "Feature" and "X" which we could evaluate as an axis variables and we could name "Axis".
-So, I write a code to gather() all columns in the two Data Tables except "Activity" and "Subject" creating a key column named "feature_funct" and a value column named "Mean" or "Std" (depending on the Data able). After I separated the "feature_funct" column in two new columns named "Feature" and "Axis".
-#separate feature_funct columns from DTmean2 and DTstd2 in 2 new variables
+So, I write a code to gather() all columns in the two Data Tables except "Activity" and "Subject" creating a key column named "feature_funct" and a value column named "Mean" or "Std" (depending on the Data Table). After I separated the "feature_funct" column in two new columns named "Feature" and "Axis".
+The code joins by join_all() the list containing the two "tidy" Data Tables.
+
 
 library(plyr)
 DTlist <- list(DTmeanTidy, DTstdTidy)
