@@ -7,17 +7,17 @@ So to commence, the code sets the wd to the "test" directory. It lists the files
 
 After, the code reads the files present in the list with the function read.table() and bind the resulting data frames by column thanks to the function cbind().
 At this point I write a code to do the same with the files that are in the "train" directory.
-The code first set the new wd being the "train" directory and after It applies the same function than before.
+The code first set the new wd being the "train" directory and after It applies the same functions than before.
 
 Up to now the code produced two data frames: one with the "test" data and another one with the "train" data.
-As they contain the same variables (subject, x vector and y in this order) the code binds them by row with the rbind function. 
-
-At this point I wanted to give variable names to that new "row-bound" Data Frame.
-I decided to give the name "Subject" to the first column as it contains tha number assigned at each subject, and "Activity" to the last column as it contains the labels for the six activities done by the subjects. For the columns between the first and the last (from 2 to 362), I used the feature names listed in the features.txt file.  
-To do all that, the code set the wd to the main "UCI HAR Dataset" directory and by read.table() reads the features file to have the names of columns from 2 to 362. 
+As they contain the same variables (subject, x vector and y in this order) the code binds them by row with the rbind() function. 
+At this point I wanted to give variable names to the columns of the new "row-bound" Data Frame.
+I decided to give the name "Subject" to the first column as it contains tha number assigned at each subject, and "Activity" to the last column as it contains the labels for the six activities done by each subject. 
+For the columns between the first and the last (from 2 to 362), I used the feature names listed in the features.txt file.  
+To do all that, the code set the wd to the main "UCI HAR Dataset" directory and by read.table() reads the features.txt file to have the names of columns from 2 to 362. 
 To assign the column names to the Data Frame, the code uses a character vector cointaining "Subject", the feature names and "Activity".
 
-Since I am interested only at the feature columns featuring the mean and standard deviation values, I select from my renamed Data Frame, only the columns containing the word "mean" or "std" (plus the first and the last coumns obviously). to do this, I subseted the Data frame using a grep() function. It takes only the column where there are the two words of interest by checking the matching with the column names.
+Since I am interested only at the feature columns featuring the mean and standard deviation values, I select from my "column-named" Data Frame, only the columns containing the word "mean" or "std" (plus the first "subject" column and the last "Activity" column obviously). To do this, I subseted the Data frame using a grep() function. It takes only the column where there are the two words of interest by checking the matching with the column names.
 
 To name the different activities in the "Activity" column, represented by numeric labels from 1 to 6, the code reads the "activity_labels.txt" file and save the name of the labels in a vector. After, it assigns at each number in the "Activity" column the corresponding name in the vector by a for loop.  
 
