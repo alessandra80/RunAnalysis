@@ -18,6 +18,8 @@ To do all that, the code set the wd to the main "UCI HAR Dataset" directory and 
 To assign the column names to the Data Frame, the code uses a character vector cointaining "Subject", the feature names and "Activity".
 
 Since I am interested only at the feature columns featuring the mean and standard deviation values, I select from my "column-named" Data Frame, only the columns containing the word "mean" or "std" (plus the first "subject" column and the last "Activity" column obviously). To do this, I subseted the Data frame using a grep() function. It takes only the column where there are the two words of interest by checking the matching with the column names.
+I decided to extract only the columns with the word "mean" and not those with "Mean" since reading the features.info.txt file, I understood that in the case of "mean()" columns we have the result of the computed mean on the features, while the columns with "Mean" have not the mean value but the angle() value applied to the average signals in a single window sample. 
+So, in my opinion column values of "mean" and "Mean" have different meaning and I choose the "mean" as they are "literally" the mean of some features.
 
 To name the different activities in the "Activity" column, represented by numeric labels from 1 to 6, the code reads the "activity_labels.txt" file and save the name of the labels in a vector. After, it assigns at each number in the "Activity" column the corresponding name in the vector by a for loop.  
 
