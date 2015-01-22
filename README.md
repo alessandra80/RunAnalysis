@@ -28,12 +28,13 @@ It transforms the Data Frame in a Data Table by the function tbl_df() so it can 
 I decided to break this Data Table into two Data Tables by the presence of "mean" and "std" in variable names using grep() function. 
 
 Following, I renamed the columns included between the first (Subject) and last column (Activity) in both data Tables with longer but more descriptive names. To do this I wrote two text files featuring the new names, I read them by read.table() and I assigned the name they cointained at the columns of "mean" and "std" Data Tables. 
-On example of the new column names is: TimeDomainBodyAcceleration_X
-In my opinion we can consider we have two variables in one column: "TimeDomainBodyAcceleration" which we could name "Feature" and "X" which we could evaluate as an axis variables and we could name "Axis".
-So, I write a code to gather() all columns in the two Data Tables except "Activity" and "Subject" creating a key column named "feature_funct" and a value column named "Mean" or "Std" (depending on the Data Table). After I separated the "feature_funct" column in two new columns named "Feature" and "Axis".
-The code joins by join_all() the list containing the two "tidy" Data Tables.
+On example of the new column names is: MeanXaxisTBodyAcceleration
+
+As last steps, the code joins by join_all() a list containing the two "tidy" Data Tables.
 
 
 library(plyr)
-DTlist <- list(DTmeanTidy, DTstdTidy)
-joined <- join_all(DTlist)
+DTlist <- list(DTmean, DTstd)
+JoinArr <- arrange(join_all(DTlist, by=c("Subject", "Activity"), match="first"), Subject, Activity)
+grouped <- group_by(JoinArr, Subject, Activity)
+summarized <- summarise_each(grouped, funs(mean))
