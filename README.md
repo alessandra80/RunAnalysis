@@ -30,11 +30,5 @@ I decided to break this Data Table into two Data Tables by the presence of "mean
 Following, I renamed the columns included between the first (Subject) and last column (Activity) in both data Tables with longer but more descriptive names. To do this I wrote two text files featuring the new names, I read them by read.table() and I assigned the name they cointained at the columns of "mean" and "std" Data Tables. 
 On example of the new column names is: MeanXaxisTBodyAcceleration
 
-As last steps, the code joins by join_all() a list containing the two "tidy" Data Tables.
+As last steps, the code joins by join_all() a list containing the two Data Tables, arranges and group by the columns "Subject" and "Activity" and eventually It summarize each column by calculating the mean().   
 
-
-library(plyr)
-DTlist <- list(DTmean, DTstd)
-JoinArr <- arrange(join_all(DTlist, by=c("Subject", "Activity"), match="first"), Subject, Activity)
-grouped <- group_by(JoinArr, Subject, Activity)
-summarized <- summarise_each(grouped, funs(mean))
