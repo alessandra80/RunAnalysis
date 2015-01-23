@@ -96,18 +96,52 @@ Variable 20. stdZaxisTimeDerivedTBodyAcceleration
     
 Variable 21. meanXaxisTBodyAngularVelocity
 
-meanXaxisTBodyAngularVelocity
-meanYaxisTBodyAngularVelocity
-meanZaxisTBodyAngularVelocity
-stdXaxisTBodyAngularVelocity
-stdYaxisTBodyAngularVelocity
-stdZaxisTBodyAngularVelocity
-meanXaxisTimeDerivedTBodyAngularVelocity
-meanYaxisTimeDerivedTBodyAngularVelocity
-meanZaxisTimeDerivedTBodyAngularVelocity
-stdXaxisTimeDerivedTBodyAngularVelocity
-stdYaxisTimeDerivedTBodyAngularVelocity
-stdZaxisTimeDerivedTBodyAngularVelocity
+          mean of the time (T in the name) domain angular velocity signal on the X axis, coming from the mobile phone gyroscope (feature previously named tBodyGyro-mean()-X)
+
+Variable 22. meanXaxisTBodyAngularVelocity
+
+          mean of the time (T in the name) domain angular velocity signal on the Y axis, coming from the mobile phone gyroscope (feature previously named tBodyGyro-mean()-Y)
+
+Variable 23. meanZaxisTBodyAngularVelocity
+
+         mean of the time (T in the name) domain angular velocity signal on the Z axis, coming from the mobile phone gyroscope (feature previously named tBodyGyro-mean()-Z)
+
+Variable 24. stdXaxisTBodyAngularVelocity
+
+          std of the time (T in the name) domain angular velocity signal on the X axis, coming from the mobile phone gyroscope (feature previously named tBodyGyro-std()-X)
+
+Variable 25. stdYaxisTBodyAngularVelocity
+
+          std of the time (T in the name) domain angular velocity signal on the Y axis, coming from the mobile phone gyroscope (feature previously named tBodyGyro-std()-Y)
+
+Vaiable 26. stdZaxisTBodyAngularVelocity
+
+         std of the time (T in the name) domain angular velocity signal on the Z axis, coming from the mobile phone gyroscope (feature previously named tBodyGyro-std()-Z)
+
+Variable 27. meanXaxisTimeDerivedTBodyAngularVelocity
+
+          mean of the derived in time (TimeDerived) body angular velocity signal (time domain T signal on the X axis), coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-mean()-X)
+
+Variable 28. meanYaxisTimeDerivedTBodyAngularVelocity
+
+          mean of the derived in time (TimeDerived) body angular velocity signal (time domain T signal on the Y axis), coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-mean()-Y)
+
+Variable 29. meanZaxisTimeDerivedTBodyAngularVelocity
+
+          mean of the derived in time (TimeDerived) body angular velocity signal (time domain T signal on the Z axis), coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-mean()-Z)
+
+Variable 30. stdXaxisTimeDerivedTBodyAngularVelocity
+
+          std of the derived in time (TimeDerived) body angular velocity signal (time domain T signal on the X axis), coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-std()-X)
+
+Variable 31. stdYaxisTimeDerivedTBodyAngularVelocity
+
+          std of the derived in time (TimeDerived) body angular velocity signal (time domain T signal on the Y axis), coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-std()-Y)
+
+Variable 32. stdZaxisTimeDerivedTBodyAngularVelocity
+
+          std of the derived in time (TimeDerived) body angular velocity signal (time domain T signal on the Z axis), coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-std()-Z)
+ 
 meanTBodyAccelerationMagn
 stdTBodyAccelerationMagn
 meanTGravityAccelerationMagn
