@@ -32,48 +32,70 @@ Variable 4. meanYaxisTBodyAcceleration
 
 Variable 5. meanZaxisTBodyAcceleration
 
-	mean of the time (T in the name) domain body acceleration signal on the Z axis, coming from the mobile phone 	        accelerometer (feature previously named tBodyAcc-mean()-Z)
+	mean of the time (T in the name) domain body acceleration signal on the Z axis, coming from the mobile phone accelerometer (feature previously named tBodyAcc-mean()-Z)
 
 Variable 6. stdXaxisTBodyAcceleration
 
-	std of the time (T in the name) domain body acceleration signal on the X axis, coming from the mobile phone 	        accelerometer (feature previously named tBodyAcc-std()-X)
+	std of the time (T in the name) domain body acceleration signal on the X axis, coming from the mobile phone 	accelerometer (feature previously named tBodyAcc-std()-X)
 
 Variable 7. stdYaxisTBodyAcceleration
   
-  std of the time (T in the name) domain body acceleration signal on the Y axis, coming from the mobile phone 	        accelerometer (feature previously named tBodyAcc-std()-Y)
+  std of the time (T in the name) domain body acceleration signal on the Y axis, coming from the mobile phone accelerometer (feature previously named tBodyAcc-std()-Y)
 
 Variable 8. stdZaxisTBodyAcceleration
 
-	std of the time (T in the name) domain body acceleration signal on the Z axis, coming from the mobile phone 	        accelerometer (feature previously named tBodyAcc-std()-Z)
+	std of the time (T in the name) domain body acceleration signal on the Z axis, coming from the mobile phone accelerometer (feature previously named tBodyAcc-std()-Z)
 
 Variable 9. meanXaxisTGravityAcceleration
 
-	mean of the time (T in the name) domain gravity acceleration signal on the X axis, coming from the mobile 		phone accelerometer (feature previously named tGravityAcc-mean()-X)
+	mean of the time (T in the name) domain gravity acceleration signal on the X axis, coming from the mobile phone accelerometer (feature previously named tGravityAcc-mean()-X)
 
 Variable 10. meanYaxisTGravityAcceleration
 
-	mean of the time (T in the name) domain gravity acceleration signal on the Y axis, coming from the mobile 		phone accelerometer (feature previously named tGravityAcc-mean()-Y)
+	mean of the time (T in the name) domain gravity acceleration signal on the Y axis, coming from the mobile phone accelerometer (feature previously named tGravityAcc-mean()-Y)
 
 Variable 11. meanZaxisTGravityAcceleration
 
-	mean of the time (T in the name) domain gravity acceleration signal on the Z axis, coming from the mobile 		phone accelerometer (feature previously named tGravityAcc-mean()-Z)
+	mean of the time (T in the name) domain gravity acceleration signal on the Z axis, coming from the mobile phone accelerometer (feature previously named tGravityAcc-mean()-Z)
 
 Variable 12. stdXaxisTGravityAcceleration
 
-	std of the time (T in the name) domain gravity acceleration signal on the X axis, coming from the mobile phone         accelerometer (feature previously named tGravityAcc-std()-X)
+	std of the time (T in the name) domain gravity acceleration signal on the X axis, coming from the mobile phone accelerometer (feature previously named tGravityAcc-std()-X)
       
 Variable 13. stdYaxisTGravityAcceleration
 
-	std of the time (T in the name) domain gravity acceleration signal on the Y axis, coming from the mobile phone         accelerometer (feature previously named tGravityAcc-std()-Y)
+	std of the time (T in the name) domain gravity acceleration signal on the Y axis, coming from the mobile phone accelerometer (feature previously named tGravityAcc-std()-Y)
 
 Variable 14. stdZaxisTGravityAcceleration
+    
+        std of the time (T in the name) domain gravity acceleration signal on the Z axis, coming from the mobile phone accelerometer (feature previously named tGravityAcc-std()-Z)
 
-       meanXaxisTimeDerivedTBodyAcceleration
-meanYaxisTimeDerivedTBodyAcceleration
-meanZaxisTimeDerivedTBodyAcceleration
-stdXaxisTimeDerivedTBodyAcceleration
-stdYaxisTimeDerivedTBodyAcceleration
-stdZaxisTimeDerivedTBodyAcceleration
+Variable 15. meanXaxisTimeDerivedTBodyAcceleration
+
+       mean of the derived in time (TimeDerived) body acceleration signal (time domain T signal on the X axis), coming from the mobile phone accelerometer (feature previously named tBodyAccJerk-mean()-X)
+
+Variable 16. meanYaxisTimeDerivedTBodyAcceleration
+
+        mean of the derived in time (TimeDerived) body acceleration signal (time domain T signal on the Y axis), coming from the mobile phone accelerometer (feature previously named tBodyAccJerk-mean()-Y)
+
+Variable 17. meanZaxisTimeDerivedTBodyAcceleration
+
+       mean of the derived in time (TimeDerived) body acceleration signal (time domain T signal on the Z axis), coming from the mobile phone accelerometer (feature previously named  tBodyAccJerk-mean()-Z)
+
+Variable 18. stdXaxisTimeDerivedTBodyAcceleration
+
+        std of the derived in time (TimeDerived) body acceleration signal (time domain T signal on the X axis), coming from the mobile phone accelerometer (feature previously named  tBodyAccJerk-std()-X)
+
+Variable 19. stdYaxisTimeDerivedTBodyAcceleration
+
+         std of the derived in time (TimeDerived) body acceleration signal (time domain T signal on the Y axis), coming from the mobile phone accelerometer (feature previously named  tBodyAccJerk-std()-Y)
+
+Variable 20. stdZaxisTimeDerivedTBodyAcceleration
+
+          std of the derived in time (TimeDerived) body acceleration signal (time domain T signal on the Z axis), coming from the mobile phone accelerometer (feature previously named  tBodyAccJerk-std()-Z)
+    
+Variable 21. meanXaxisTBodyAngularVelocity
+
 meanXaxisTBodyAngularVelocity
 meanYaxisTBodyAngularVelocity
 meanZaxisTBodyAngularVelocity
