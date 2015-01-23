@@ -21,6 +21,7 @@ The following 79 variables represent the mean() of the mean or standard deviatio
 The following 79 variables represent the mean(), grouped for Subject and Activity columns, of the signals described by the variable names and for which there is a little explanation.
 The original data were been normalised and bounded within [-1,1] so the results from which we start to make the course project were unitlless. Consequently, also the new results are unitlless.
 
+
 3. meanXaxisTBodyAcceleration
 
  	mean of the time (T in the name) domain body acceleration signal on the X axis, coming from the mobile phone 	        accelerometer (feature previously named tBodyAcc-mean()-X)   
@@ -29,14 +30,17 @@ The original data were been normalised and bounded within [-1,1] so the results 
 
 	mean of the time (T in the name) domain body acceleration signal on the Y axis, coming from the mobile phone 	        accelerometer (feature previously named tBodyAcc-mean()-Y)
 
-5. meanZaxisTBodyAcceleration:
+5. meanZaxisTBodyAcceleration
+
 	mean of the time (T in the name) domain body acceleration signal on the Z axis, coming from the mobile phone 	        accelerometer (feature previously named tBodyAcc-mean()-Z)
 
 6. stdXaxisTBodyAcceleration
+
 	std of the time (T in the name) domain body acceleration signal on the X axis, coming from the mobile phone 	        accelerometer (feature previously named tBodyAcc-std()-X)
 
 7. stdYaxisTBodyAcceleration
-	std of the time (T in the name) domain body acceleration signal on the Y axis, coming from the mobile phone 	        accelerometer (feature previously named tBodyAcc-std()-Y)
+  
+  std of the time (T in the name) domain body acceleration signal on the Y axis, coming from the mobile phone 	        accelerometer (feature previously named tBodyAcc-std()-Y)
 
 8. stdZaxisTBodyAcceleration
 	std of the time (T in the name) domain body acceleration signal on the Z axis, coming from the mobile phone 	        accelerometer (feature previously named tBodyAcc-std()-Z)
