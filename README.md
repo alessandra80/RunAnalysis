@@ -2,8 +2,8 @@
 README file for the course project of Getting and Cleaning data.
 
 To start to manipulate the data, I moved the directories "Inertial signals" present in "test" and "train" directories, to the "UCI HAR Dataset directory".
-Indeed, following I will have to select only the measurement on the mean and standard deviation and these functions (mean() and std()) have not been applied to "inertials signals" so we don't need that folders. 
-I want to read only the "x_test/x_train", "y_test/y_train" and the "subject_test/subject_train" files that are inside the "train" and "test" directories. 
+Indeed, following I will have to select only the measurement on the mean and standard deviation and these functions (mean() and std()) have not been applied to "inertials signals" so, in my opinion, we don't need the folders containing that files. 
+Instead, we want to read only the "x_test/x_train", "y_test/y_train" and the "subject_test/subject_train" files that are inside the "train" and "test" directories. 
 So to commence, the code sets the wd to the "test" directory. It lists the files within the directory using the list.files() function.
 After, the code reads the files present in the list with the function read.table() and bind the resulting data frames by column thanks to the function cbind().
 At this point I write a code to do the same with the files that are in the "train" directory.
