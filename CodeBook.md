@@ -11,7 +11,7 @@ Tha data frame has been transformed in a data table and the "subject" and "activ
 
 At the end, the data has been grouped by the previous arranged "subject" and "activity" and summarized by calculating the mean of each variable.
 
-So what we have at the end of the manipulation, is a tidy data table with 180 rows and 81 variables.
+So what we have at the end of the manipulation, is a tidy data table with 180 rows and 81 variables where there is the mean of each variables for each activity and each subject.
 
 Here the new variable names and their meaning:
 
