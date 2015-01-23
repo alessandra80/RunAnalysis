@@ -141,20 +141,58 @@ Variable 31. stdYaxisTimeDerivedTBodyAngularVelocity
 Variable 32. stdZaxisTimeDerivedTBodyAngularVelocity
 
           std of the derived in time (TimeDerived) body angular velocity signal (time domain T signal on the Z axis), coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-std()-Z)
- 
-meanTBodyAccelerationMagn
-stdTBodyAccelerationMagn
-meanTGravityAccelerationMagn
-stdTGravityAccelerationMagn
-meanTimeDerivedTBodyAccelerationMagn
-stdTimeDerivedBodyAccelerationMagn
-meanTBodyAngularVelocityMagn
-stdTBodyAngularVelocityMagn
-meanTimeDerivedTBodyAngularVelocityMagn
-stdTimeDerivedTBodyAngularVelocityMagn
-meanXaxisFBodyAcceleration
-meanYaxisFBodyAcceleration
-meanZaxisFBodyAcceleration
+
+Variable 33. meanTBodyAccelerationMagn
+
+          mean of the magnitude of the time (T in the name) domain body acceleration signal, coming from the mobile phone accelerometer (feature previously named tBodyAccMag-mean()) 
+
+Variable 34. stdTBodyAccelerationMagn
+
+         std of the magnitude of the time (T in the name) domain body acceleration signal, coming from the mobile phone accelerometer (feature previously named tBodyAccMag-std()) 
+
+Variable 35. meanTGravityAccelerationMagn
+
+          mean of the magnitude of the time (T in the name) domain gravity acceleration signal coming from the mobile phone accelerometer (feature previously named tGravityAccMag-mean())
+
+Variable 36. stdTGravityAccelerationMagn
+
+         std of the magnitude of the time (T in the name) domain gravity acceleration signal coming from the mobile phone accelerometer (feature previously named tGravityAccMag-std())
+
+Variable 37. meanTimeDerivedTBodyAccelerationMagn
+
+        mean of the derived in time (TimeDerived) magnitude of the body acceleration signal (time domain T signal), coming from the mobile phone accelerometer (feature previously named tBodyAccJerkMag-mean())
+
+Variable 38. stdTimeDerivedBodyAccelerationMagn
+
+         std of the derived in time (TimeDerived) magnitude of the body acceleration signal (time domain T signal), coming from the mobile phone accelerometer (feature previously named tBodyAccJerkMag-std())
+
+Variable 39. meanTBodyAngularVelocityMagn
+
+         mean of the magnitude of the time (T in the name) domain angular velocity signal coming from the mobile phone gyroscope (feature previously named tBodyGyroMag-mean())
+
+Variable 40. stdTBodyAngularVelocityMagn
+
+         std of the magnitude of the time (T in the name) domain angular velocity signal coming from the mobile phone gyroscope (feature previously named tBodyGyroMag-std())
+
+Variable 41. meanTimeDerivedTBodyAngularVelocityMagn
+
+          mean of the magnitude of the derived in time (TimeDerived) body acceleration signal (time domain T signal), coming from the mobile phone gyroscope (feature previously named tBodyGyroJerkMag-mean())
+
+Variable 42. stdTimeDerivedTBodyAngularVelocityMagn
+
+           std of the magnitude of the derived in time (TimeDerived) body acceleration signal (time domain T signal), coming from the mobile phone gyroscope (feature previously named tBodyGyroJerkMag-std())
+
+Variable 43. meanXaxisFBodyAcceleration
+
+          mean of the frequency (F in the name) domain body acceleration signal on the X axis, coming from the mobile phone accelerometer (feature previously named fBodyAcc-mean()-X) 
+
+Variable 44. meanYaxisFBodyAcceleration
+
+         mean of the frequency (F in the name) domain body acceleration signal on the Y axis, coming from the mobile phone accelerometer (feature previously named fBodyAcc-mean()-Y) 
+
+Variable 45. meanZaxisFBodyAcceleration
+
+        mean of the frequency (F in the name) domain body acceleration signal on the Z axis, coming from the mobile phone accelerometer (feature previously named fBodyAcc-mean()-Z) 
 stdXaxisFDomainBodyAcceleration
 stdYaxisFDomainBodyAcceleration
 stdZaxisFDomainBodyAcceleration
