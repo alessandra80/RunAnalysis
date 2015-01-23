@@ -193,15 +193,44 @@ Variable 44. meanYaxisFBodyAcceleration
 Variable 45. meanZaxisFBodyAcceleration
 
         mean of the frequency (F in the name) domain body acceleration signal on the Z axis, coming from the mobile phone accelerometer (feature previously named fBodyAcc-mean()-Z) 
-stdXaxisFDomainBodyAcceleration
-stdYaxisFDomainBodyAcceleration
-stdZaxisFDomainBodyAcceleration
-meanXaxisFBodyAccelerationFrComponent
-meanYaxisFBodyAccelerationFrComponent
-meanZaxisFBodyAccelerationFrComponent
-meanXaxisFourierFBodyAcceleration
-meanYaxisFourierFBodyAcceleration
-meanZaxisFourierFBodyAcceleration
+
+Variable 46. stdXaxisFDomainBodyAcceleration
+
+       std of the frequency (F in the name) domain body acceleration signal on the X axis, coming from the mobile phone accelerometer (feature previously named fBodyAcc-std()-X) 
+
+Variable 47. stdYaxisFDomainBodyAcceleration
+
+        std of the frequency (F in the name) domain body acceleration signal on the Y axis, coming from the mobile phone accelerometer (feature previously named fBodyAcc-std()-Y)
+
+Variable 48. stdZaxisFDomainBodyAcceleration
+
+         std of the frequency (F in the name) domain body acceleration signal on the Z axis, coming from the mobile phone accelerometer (feature previously named fBodyAcc-std()-Z) 
+
+Variable 49. meanXaxisFBodyAccelerationFrComponent
+
+         mean of the frequency component of the frequency (F in the name) domain body acceleration signal on the X axis, coming from the mobile phone accelerometer (feature previously named fBodyAcc-meanFreq()-X)
+
+Variable 50. meanYaxisFBodyAccelerationFrComponent
+
+         mean of the frequency component of the frequency (F in the name) domain body acceleration signal on the Y axis, coming from the mobile phone accelerometer (feature previously named fBodyAcc-meanFreq()-Y)
+
+Variable 51. meanZaxisFBodyAccelerationFrComponent
+
+        mean of the frequency component of the frequency (F in the name) domain body acceleration signal on the Z axis, coming from the mobile phone accelerometer (feature previously named fBodyAcc-meanFreq()-Z)
+
+Variable 52. meanXaxisFourierFBodyAcceleration
+
+         mean of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the X axis, coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-mean()-X)
+
+Variable 53. meanYaxisFourierFBodyAcceleration
+
+        mean of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the Y axis, coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-mean()-Y)
+
+Variable 54. meanZaxisFourierFBodyAcceleration
+
+         mean of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the Z axis, coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-mean()-Z)
+
+
 stdXaxisFourierFBodyAcceleration
 stdYaxisFourierFBodyAcceleration
 stdZaxisFourierFBodyAcceleration
