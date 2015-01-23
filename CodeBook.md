@@ -1,14 +1,27 @@
-CodeBook
+Code Book
 
 For the Coursera project we need to join together the files in the test and train folders and after to select only the columns representing the mean and the standard deviation (std) of the variables. So, I choose don't include in the joining process the Inertial Signals folders as they don't contain neither the mean nor the standard deviation for those Signals.  
-Once the data joined, the columns of the resulting Data Frame have been renamed using descriptive names. For the columns containin the data of the 561-feature vector, it has been used the names inside features.txt file. Following, only the columns featuring "mean" and "std" in the names have been selected.
+Once the data joined, the columns of the resulting Data Frame have been renamed using descriptive names. For the column containing the number of the subjects involved in the experiments (n=30) the name was "subject", for the columns containin the data of the 561-feature vector, it has been used the names inside features.txt file and for the column in which there was the labels for the 6 activities performed by the subject, the name was "activity".
+
+Following, only the columns featuring "mean" and "std" in the names have been selected and the number of the labels in the "activity" column have been replaced with the activities names (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS).
+
+All the column names between "subject" and "activity" have been substituted with descriptive names that were in a text file created by myself.
+
+Tha data frame has been transformed in a data table and the "subject" and "activity" columns arranged (this a personal choice. According to me the data table was tidier if the subject's numbers were in crescent order and the activities in alphabetic order).
+
+At the end, the data has been grouped by the previous arranged "subject" and "activity" and summarized by calculating the mean of each variable.
+
+So what we have at the end of the manipulation, is a tidy data table with 180 rows and 81 variables.
 
 Here the new variable names and their meaning:
 
-1. Subject: increasing numbers identifying the subjects (n=30) involved in the experiments. Its range is from 1 to 30
+Variable 1. subject (int)
 
-2. Activity: descriptive names of the 6 activities performed by the 30 subjects involved in the experiments. 
-	     They are arranged in alphabetical order, grouped by Subject:
+             Increasing numbers identifying the subjects (n=30) involved in the experiments. The range is from 1 to 30
+
+Variable 2. activity 
+
+             Descriptive names of the 6 activities performed by the 30 subjects involved in the experiments. They are              arranged in alphabetical order and grouped by the subject column:
 
 	     LAYING
 	     SITTING
@@ -17,9 +30,9 @@ Here the new variable names and their meaning:
 	     WALKING_DOWNSTAIRS
 	     WALKING_UPSTAIRS
 	     
-The following 79 variables represent the mean() of the mean or standard deviation (std()) of the features selected for the experiments. These features come from the accelerometer and gyroscope 3-axial raw signals and originally named tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
-The following 79 variables represent the mean(), grouped for Subject and Activity columns, of the signals described by the variable names and for which there is a little explanation.
-The original data were been normalised and bounded within [-1,1] so the results from which we start to make the course project were unitlless. Consequently, also the new results are unitlless.
+The following 79 variables represent the mean() of the mean or standard deviation (std()) values of some features that have been originally selected for the experiments.
+
+As the original data were been normalised and bounded within [-1,1] the results from which we started to make the course project were unitlless. Consequently, also the new values of the variables are unitlless.
 
 
 Variable 3. meanXaxisTBodyAcceleration
