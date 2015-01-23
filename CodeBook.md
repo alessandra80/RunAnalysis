@@ -312,10 +312,30 @@ Variable 74. stdFourierFBodyBodyAccelerationMagn
 
           std of the Fast Fourier Transform of the frequency (F in the name) domain body body acceleration signal, coming from the mobile phone accelerometer (feature previously named fBodyBodyAccJerkMag-std())
 
-meanFourierFBodyBodyAccelerationMagnFrComponent
-meanFBodyBodyAngularVelocityMagn
-stdFBodyBodyAngularVelocityMagn
-meanFBodyBodyAngularVelocityMagnFrComponent
-meanFourierFBodyBodyAngularVelocityMagn
-stdFourierFBodyBodyAngularVelocityMagn 
-meanFourierFBodyBodyAngularVelocityMagnFrComponent
+Variable 75. meanFourierFBodyBodyAccelerationMagnFrComponent
+
+         mean of the frequency component of the Fast Fourier Transform of the magnitude of the frequency (F in the name) domain body body acceleration signal, coming from the mobile phone accelerometer (feature previously named fBodyBodyAccJerkMag-meanFreq())
+
+Variable 76. meanFBodyBodyAngularVelocityMagn
+
+       mean of the magnitude of the frequency (F in the name) domain body body angular velocity coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroMag-mean())
+
+Variable77. stdFBodyBodyAngularVelocityMagn
+
+        std of the magnitude of the frequency (F in the name) domain body body angular velocity signal, coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroMag-std())
+
+Variable 78. meanFBodyBodyAngularVelocityMagnFrComponent
+
+          mean of the frequency component of the magnitude of the frequency (F in the name) domain body body angular velocity signal, coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroMag-meanFreq())
+
+Variable 79. meanFourierFBodyBodyAngularVelocityMagn
+ 
+          mean of the Fast Fourier Transform of the magnitude of the frequency (F in the name) domain body body angular velocity signal, coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroJerkMag-mean())
+         
+Variable 80. stdFourierFBodyBodyAngularVelocityMagn 
+
+          std of the Fast Fourier Transform of the magnitude of the frequency (F in the name) domain body body angular velocity signal, coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroJerkMag-std())
+
+Variable 81. meanFourierFBodyBodyAngularVelocityMagnFrComponent
+
+           mean of the frequency component of the Fast Fourier Transform of the magnitude of the frequency (F in the name) domain body body angular velocity signal, coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroJerkMag-meanFreq())
