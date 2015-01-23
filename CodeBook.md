@@ -3,7 +3,6 @@ CodeBook
 For the Coursera project we need to join together the files in the test and train folders and after to select only the columns representing the mean and the standard deviation (std) of the variables. So, I choose don't include in the joining process the Inertial Signals folders as they don't contain neither the mean nor the standard deviation for those Signals.  
 Once the data joined, the columns of the resulting Data Frame have been renamed using descriptive names. For the columns containin the data of the 561-feature vector, it has been used the names inside features.txt file. Following, only the columns featuring "mean" and "std" in the names have been selected.
 
-
 Here the new variable names and their meaning:
 
 1. Subject: increasing numbers identifying the subjects (n=30) involved in the experiments. Its range is from 1 to 30
