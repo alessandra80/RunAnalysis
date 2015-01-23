@@ -26,10 +26,10 @@ The original data were been normalised and bounded within [-1,1] so the results 
 3. meanXaxisTBodyAcceleration
  	mean of the time (T in the name) domain body acceleration signal on the X axis, coming from the mobile phone 	        accelerometer (feature previously named tBodyAcc-mean()-X)   
 
-4. meanYaxisTBodyAcceleration
+4. meanYaxisTBodyAcceleration:
 	mean of the time (T in the name) domain body acceleration signal on the Y axis, coming from the mobile phone 	        accelerometer (feature previously named tBodyAcc-mean()-Y)
 
-5. meanZaxisTBodyAcceleration
+5. meanZaxisTBodyAcceleration:
 	mean of the time (T in the name) domain body acceleration signal on the Z axis, coming from the mobile phone 	        accelerometer (feature previously named tBodyAcc-mean()-Z)
 
 6. stdXaxisTBodyAcceleration
