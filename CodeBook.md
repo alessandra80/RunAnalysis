@@ -37,99 +37,99 @@ As the original data were been normalised and bounded within [-1,1] the results 
 
 Variable 3. timeDomainBodyAccmeanXaxis
 
- 	mean of the time (T in the name) domain body acceleration signal on the X axis coming from the mobile phone accelerometer (feature previously named tBodyAcc-mean()-X)   
+ 	mean of the time domain body acceleration signal on the X axis coming from the mobile phone accelerometer (feature previously named tBodyAcc-mean()-X)   
 
 Variable 4. timeDomainBodyAccmeanYaxis
 
-	mean of the time (T in the name) domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named tBodyAcc-mean()-Y)
+	mean of the time domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named tBodyAcc-mean()-Y)
 
 Variable 5. timeDomainBodyAccmeanZaxis
 
-	mean of the time (T in the name) domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named tBodyAcc-mean()-Z)
+	mean of the time domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named tBodyAcc-mean()-Z)
 
 Variable 6. timeDomainBodyAccstdXaxis
 
-	std of the time (T in the name) domain body acceleration signal on the X axis coming from the mobile phone 	accelerometer (feature previously named tBodyAcc-std()-X)
+	std of the time domain body acceleration signal on the X axis coming from the mobile phone 	accelerometer (feature previously named tBodyAcc-std()-X)
 
 Variable 7. timeDomainBodyAccstdYaxis
   
-  std of the time (T in the name) domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named tBodyAcc-std()-Y)
+  std of the time domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named tBodyAcc-std()-Y)
 
 Variable 8. timeDomainBodyAccstdZaxis
 
-	std of the time (T in the name) domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named tBodyAcc-std()-Z)
+	std of the time domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named tBodyAcc-std()-Z)
 
 Variable 9. timeDomainGravityAccmeanXaxis
 
-	mean of the time (T in the name) domain gravity acceleration signal on the X axis coming from the mobile phone accelerometer (feature previously named tGravityAcc-mean()-X)
+	mean of the time domain gravity acceleration signal on the X axis coming from the mobile phone accelerometer (feature previously named tGravityAcc-mean()-X)
 
 Variable 10. timeDomainGravityAccmeanYaxis
 
-	mean of the time (T in the name) domain gravity acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named tGravityAcc-mean()-Y)
+	mean of the time domain gravity acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named tGravityAcc-mean()-Y)
 
 Variable 11. timeDomainGravityAccmeanZaxis
 
-	mean of the time (T in the name) domain gravity acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named tGravityAcc-mean()-Z)
+	mean of the time domain gravity acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named tGravityAcc-mean()-Z)
 
 Variable 12. timeDomainGravityAccstdXaxis
 
-	std of the time (T in the name) domain gravity acceleration signal on the X axis, coming from the mobile phone accelerometer (feature previously named tGravityAcc-std()-X)
+	std of the time domain gravity acceleration signal on the X axis, coming from the mobile phone accelerometer (feature previously named tGravityAcc-std()-X)
       
 Variable 13. timeDomainGravityAccstdYaxis
 
-	std of the time (T in the name) domain gravity acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named tGravityAcc-std()-Y)
+	std of the time domain gravity acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named tGravityAcc-std()-Y)
 
 Variable 14. timeDomainGravityAccstdZaxis
     
-        std of the time (T in the name) domain gravity acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named tGravityAcc-std()-Z)
+        std of the time domain gravity acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named tGravityAcc-std()-Z)
 
 Variable 15. timeDomainBodyAccJerkmeanXaxis
 
-       mean of the derived in time (TimeDerived) body acceleration signal (time domain T signal on the X axis) coming from the mobile phone accelerometer (feature previously named tBodyAccJerk-mean()-X)
+       mean of the derived in time (Jerk) body acceleration signal (time domain signal on the X axis) coming from the mobile phone accelerometer (feature previously named tBodyAccJerk-mean()-X)
 
 Variable 16. timeDomainBodyAccJerkmeanYaxis
 
-        mean of the derived in time (TimeDerived) body acceleration signal (time domain T signal on the Y axis) coming from the mobile phone accelerometer (feature previously named tBodyAccJerk-mean()-Y)
+        mean of the derived in time (Jerk) body acceleration signal (time domain signal on the Y axis) coming from the mobile phone accelerometer (feature previously named tBodyAccJerk-mean()-Y)
 
 Variable 17. timeDomainBodyAccJerkmeanZaxis
 
-       mean of the derived in time (TimeDerived) body acceleration signal (time domain T signal on the Z axis) coming from the mobile phone accelerometer (feature previously named  tBodyAccJerk-mean()-Z)
+       mean of the derived in time (Jerk) body acceleration signal (time domain signal on the Z axis) coming from the mobile phone accelerometer (feature previously named  tBodyAccJerk-mean()-Z)
 
 Variable 18. timeDomainBodyAccJerkstdXaxis
 
-        std of the derived in time (TimeDerived) body acceleration signal (time domain T signal on the X axis) coming from the mobile phone accelerometer (feature previously named  tBodyAccJerk-std()-X)
+        std of the derived in time (Jerk) body acceleration signal (time domain signal on the X axis) coming from the mobile phone accelerometer (feature previously named  tBodyAccJerk-std()-X)
 
 Variable 19. timeDomainBodyAccJerkstdYaxis
 
-         std of the derived in time (TimeDerived) body acceleration signal (time domain T signal on the Y axis) coming from the mobile phone accelerometer (feature previously named  tBodyAccJerk-std()-Y)
+         std of the derived in time (Jerk) body acceleration signal (time domain signal on the Y axis) coming from the mobile phone accelerometer (feature previously named  tBodyAccJerk-std()-Y)
 
 Variable 20. timeDomainBodyAccJerkstdZaxis
 
-          std of the derived in time (TimeDerived) body acceleration signal (time domain T signal on the Z axis) coming from the mobile phone accelerometer (feature previously named  tBodyAccJerk-std()-Z)
+          std of the derived in time (Jerk) body acceleration signal (time domain signal on the Z axis) coming from the mobile phone accelerometer (feature previously named  tBodyAccJerk-std()-Z)
     
 Variable 21. timeDomainBodyGyromeanXaxis
 
-          mean of the time (T in the name) domain angular velocity signal on the X axis coming from the mobile phone gyroscope (feature previously named tBodyGyro-mean()-X)
+          mean of the time domain angular velocity signal on the X axis coming from the mobile phone gyroscope (feature previously named tBodyGyro-mean()-X)
 
 Variable 22. timeDomainBodyGyromeanYaxis
 
-          mean of the time (T in the name) domain angular velocity signal on the Y axis coming from the mobile phone gyroscope (feature previously named tBodyGyro-mean()-Y)
+          mean of the time domain angular velocity signal on the Y axis coming from the mobile phone gyroscope (feature previously named tBodyGyro-mean()-Y)
 
 Variable 23. timeDomainBodyGyromeanZaxis
 
-         mean of the time (T in the name) domain angular velocity signal on the Z axis coming from the mobile phone gyroscope (feature previously named tBodyGyro-mean()-Z)
+         mean of the time domain angular velocity signal on the Z axis coming from the mobile phone gyroscope (feature previously named tBodyGyro-mean()-Z)
 
 Variable 24. timeDomainBodyGyrostdXaxis
 
-          std of the time (T in the name) domain angular velocity signal on the X axis coming from the mobile phone gyroscope (feature previously named tBodyGyro-std()-X)
+          std of the time domain angular velocity signal on the X axis coming from the mobile phone gyroscope (feature previously named tBodyGyro-std()-X)
 
 Variable 25. timeDomainBodyGyrostdYaxis
 
-          std of the time (T in the name) domain angular velocity signal on the Y axis coming from the mobile phone gyroscope (feature previously named tBodyGyro-std()-Y)
+          std of the time domain angular velocity signal on the Y axis coming from the mobile phone gyroscope (feature previously named tBodyGyro-std()-Y)
 
 Vaiable 26. timeDomainBodyGyrostdZaxis
 
-         std of the time (T in the name) domain angular velocity signal on the Z axis coming from the mobile phone gyroscope (feature previously named tBodyGyro-std()-Z)
+         std of the time domain angular velocity signal on the Z axis coming from the mobile phone gyroscope (feature previously named tBodyGyro-std()-Z)
 
 Variable 27. timeDomainBodyGyroJerkmeanXaxis
 
@@ -137,216 +137,216 @@ Variable 27. timeDomainBodyGyroJerkmeanXaxis
 
 Variable 28. timeDomainBodyGyroJerkmeanYaxis
 
-          mean of the derived in time (TimeDerived) body angular velocity signal (time domain T signal on the Y axis), coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-mean()-Y)
+          mean of the derived in time (Jerk) body angular velocity signal (time domain signal on the Y axis), coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-mean()-Y)
 
 Variable 29. timeDomainBodyGyroJerkmeanZaxis
 
-          mean of the derived in time (TimeDerived) body angular velocity signal (time domain T signal on the Z axis) coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-mean()-Z)
+          mean of the derived in time (Jerk) body angular velocity signal (time domain signal on the Z axis) coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-mean()-Z)
 
 Variable 30. timeDomainBodyGyroJerkstdXaxis
 
-          std of the derived in time (TimeDerived) body angular velocity signal (time domain T signal on the X axis) coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-std()-X)
+          std of the derived in time (Jerk) body angular velocity signal (time domain signal on the X axis) coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-std()-X)
 
 Variable 31. timeDomainBodyGyroJerkstdYaxis
 
-          std of the derived in time (TimeDerived) body angular velocity signal (time domain T signal on the Y axis) coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-std()-Y)
+          std of the derived in time (Jerk) body angular velocity signal (time domain signal on the Y axis) coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-std()-Y)
 
 Variable 32. timeDomainBodyGyroJerkstdZaxis
 
-          std of the derived in time (TimeDerived) body angular velocity signal (time domain T signal on the Z axis) coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-std()-Z)
+          std of the derived in time (Jerk) body angular velocity signal (time domain signal on the Z axis) coming from the mobile phone gyroscope (feature previously named tBodyGyroJerk-std()-Z)
 
 Variable 33. timeDomainBodyAccMagmean
 
-          mean of the magnitude of the time (T in the name) domain body acceleration signal coming from the mobile phone accelerometer (feature previously named tBodyAccMag-mean()) 
+          mean of the magnitude of the time domain body acceleration signal coming from the mobile phone accelerometer (feature previously named tBodyAccMag-mean()) 
 
 Variable 34. timeDomainBodyAccMagstd
 
-         std of the magnitude of the time (T in the name) domain body acceleration signal coming from the mobile phone accelerometer (feature previously named tBodyAccMag-std()) 
+         std of the magnitude of the time domain body acceleration signal coming from the mobile phone accelerometer (feature previously named tBodyAccMag-std()) 
 
 Variable 35. timeDomainGravityAccMagmean
 
-          mean of the magnitude of the time (T in the name) domain gravity acceleration signal coming from the mobile phone accelerometer (feature previously named tGravityAccMag-mean())
+          mean of the magnitude of the time domain gravity acceleration signal coming from the mobile phone accelerometer (feature previously named tGravityAccMag-mean())
 
 Variable 36. timeDomainGravityAccMagstd
 
-         std of the magnitude of the time (T in the name) domain gravity acceleration signal coming from the mobile phone accelerometer (feature previously named tGravityAccMag-std())
+         std of the magnitude of the time domain gravity acceleration signal coming from the mobile phone accelerometer (feature previously named tGravityAccMag-std())
 
 Variable 37. timeDomainBodyAccJerkMagmean
 
-        mean of the magnitude of the derived in time (TimeDerived) body acceleration signal (time domain T signal) coming from the mobile phone accelerometer (feature previously named tBodyAccJerkMag-mean())
+        mean of the magnitude of the derived in time (Jerk) body acceleration signal (time domain signal) coming from the mobile phone accelerometer (feature previously named tBodyAccJerkMag-mean())
 
 Variable 38. timeDomainBodyAccJerkMagstd
 
-         std of the magnitude of the derived in time (TimeDerived) body acceleration signal (time domain T signal) coming from the mobile phone accelerometer (feature previously named tBodyAccJerkMag-std())
+         std of the magnitude of the derived in time (Jerk) body acceleration signal (time domain signal) coming from the mobile phone accelerometer (feature previously named tBodyAccJerkMag-std())
 
 Variable 39. timeDomainBodyGyroMagmean
 
-         mean of the magnitude of the time (T in the name) domain angular velocity signal coming from the mobile phone gyroscope (feature previously named tBodyGyroMag-mean())
+         mean of the magnitude of the time domain angular velocity signal coming from the mobile phone gyroscope (feature previously named tBodyGyroMag-mean())
 
 Variable 40. timeDomainBodyGyroMagstd
 
-         std of the magnitude of the time (T in the name) domain angular velocity signal coming from the mobile phone gyroscope (feature previously named tBodyGyroMag-std())
+         std of the magnitude of the time domain angular velocity signal coming from the mobile phone gyroscope (feature previously named tBodyGyroMag-std())
 
 Variable 41. timeDomainBodyGyroJerkMagmean
 
-          mean of the magnitude of the derived in time (TimeDerived) body acceleration signal (time domain T signal) coming from the mobile phone gyroscope (feature previously named tBodyGyroJerkMag-mean())
+          mean of the magnitude of the derived in time (Jerk) body acceleration signal (time domain signal) coming from the mobile phone gyroscope (feature previously named tBodyGyroJerkMag-mean())
 
 Variable 42. timeDomainBodyGyroJerkMagstd
 
-           std of the magnitude of the derived in time (TimeDerived) body acceleration signal (time domain T signal) coming from the mobile phone gyroscope (feature previously named tBodyGyroJerkMag-std())
+           std of the magnitude of the derived in time (Jerk) body acceleration signal (time domain signal) coming from the mobile phone gyroscope (feature previously named tBodyGyroJerkMag-std())
 
 Variable 43. frequencyDomainBodyAccmeanXaxis
 
-          mean of the frequency (F in the name) domain body acceleration signal on the X axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-mean()-X) 
+          mean of the frequency domain body acceleration signal on the X axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-mean()-X) 
 
 Variable 44. frequencyDomainBodyAccmeanYaxis
 
-         mean of the frequency (F in the name) domain body acceleration signal on the Y axis, coming from the mobile phone accelerometer (feature previously named fBodyAcc-mean()-Y) 
+         mean of the frequency domain body acceleration signal on the Y axis, coming from the mobile phone accelerometer (feature previously named fBodyAcc-mean()-Y) 
 
 Variable 45. frequencyDomainBodyAccmeanZaxis
 
-        mean of the frequency (F in the name) domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-mean()-Z) 
+        mean of the frequency domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-mean()-Z) 
 
 Variable 46. frequencyDomainBodyAccstdXaxis
 
-       std of the frequency (F in the name) domain body acceleration signal on the X axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-std()-X) 
+       std of the frequency domain body acceleration signal on the X axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-std()-X) 
 
 Variable 47. frequencyDomainBodyAccstdYaxis
 
-        std of the frequency (F in the name) domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-std()-Y)
+        std of the frequency domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-std()-Y)
 
 Variable 48. frequencyDomainBodyAccstdZaxis
 
-         std of the frequency (F in the name) domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-std()-Z) 
+         std of the frequency domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-std()-Z) 
 
 Variable 49. frequencyDomainBodyAccmeanFreqXaxis
 
-         mean of the frequency component of the frequency (F in the name) domain body acceleration signal on the X axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-meanFreq()-X)
+         mean of the frequency component of the frequency domain body acceleration signal on the X axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-meanFreq()-X)
 
 Variable 50. frequencyDomainBodyAccmeanFreqYaxis
 
-         mean of the frequency component of the frequency (F in the name) domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-meanFreq()-Y)
+         mean of the frequency component of the frequency domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-meanFreq()-Y)
 
 Variable 51. frequencyDomainBodyAccmeanFreqZaxis
 
-        mean of the frequency component of the frequency (F in the name) domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-meanFreq()-Z)
+        mean of the frequency component of the frequency domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named fBodyAcc-meanFreq()-Z)
 
 Variable 52. frequencyDomainBodyAccJerkmeanXaxis
 
-         mean of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the X axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-mean()-X)
+         mean of the Fast Fourier Transform (Jerk) of the frequency domain body acceleration signal on the X axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-mean()-X)
 
 Variable 53. frequencyDomainBodyAccJerkmeanYaxis
 
-        mean of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-mean()-Y)
+        mean of the Fast Fourier Transform (Jerk) of the frequency domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-mean()-Y)
 
 Variable 54. frequencyDomainBodyAccJerkmeanZaxis
 
-         mean of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-mean()-Z)
+         mean of the Fast Fourier Transform (Jerk) of the frequency domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-mean()-Z)
          
 Variable 55. frequencyDomainBodyAccJerkstdXaxis
 
-         std of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the X axis, coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-std()-X)
+         std of the Fast Fourier Transform (Jerk) of the frequency domain body acceleration signal on the X axis, coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-std()-X)
 
 Variable 56. frequencyDomainBodyAccJerkstdYaxis
 
-        std of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-std()-Y)
+        std of the Fast Fourier Transform (Jerk) of the frequency domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-std()-Y)
 
 Variable 57. frequencyDomainBodyAccJerkstdZaxis
 
-        std of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-std()-Z)
+        std of the Fast Fourier Transform (Jerk) of the frequency domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-std()-Z)
 
 Variable 58. frequencyDomainBodyAccJerkmeanFreqXaxis 
 
-         mean of the frequency component of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the X axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-meanFreq()-X)
+         mean of the frequency component of the Fast Fourier Transform (Jerk) of the frequency domain body acceleration signal on the X axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-meanFreq()-X)
 
 Variable 59. frequencyDomainBodyAccJerkmeanFreqYaxis
 
-        mean of the frequency component of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-meanFreq()-Y)
+        mean of the frequency component of the Fast Fourier Transform (Jerk) of the frequency domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-meanFreq()-Y)
 
 Variable 60. frequencyDomainBodyAccJerkmeanFreqZaxis
 
-         mean of the frequency component of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-meanFreq()-Z)
+         mean of the frequency component of the Fast Fourier Transform (Jerk) of the frequency domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-meanFreq()-Z)
 
 Variable 61. frequencyDomainBodyGyromeanXaxis
 
-         mean of the frequency (F in the name) domain angular velocity signal on the X axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-mean()-X)
+         mean of the frequency domain angular velocity signal on the X axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-mean()-X)
 
 Variable 62. frequencyDomainBodyGyromeanYaxis
 
-         mean of the frequency (F in the name) domain angular velocity signal on the Y axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-mean()-Y)
+         mean of the frequency domain angular velocity signal on the Y axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-mean()-Y)
 
 Variable 63. frequencyDomainBodyGyromeanZaxis
 
-        mean of the frequency (F in the name) domain angular velocity signal on the Z axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-mean()-Z)
+        mean of the frequency domain angular velocity signal on the Z axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-mean()-Z)
 
 Variable 64. frequencyDomainBodyGyrostdXaxis
 
-         std of the frequency (F in the name) domain angular velocity signal on the X axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-std()-X)
+         std of the frequency domain angular velocity signal on the X axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-std()-X)
 
 Variable 65. frequencyDomainBodyGyrostdYaxis
 
-          std of the frequency (F in the name) domain angular velocity signal on the Y axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-std()-Y)
+          std of the frequency domain angular velocity signal on the Y axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-std()-Y)
 
 Variable 66. frequencyDomainBodyGyrostdZaxis
 
-         std of the frequency (F in the name) domain angular velocity signal on the Z axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-std()-Z)
+         std of the frequency domain angular velocity signal on the Z axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-std()-Z)
 
 Variable 67. frequencyDomainBodyGyromeanFreqXaxis
 
-         mean of the frequency component of the frequency (F in the name) domain angular velocity signal on the X axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-meanFreq()-X)
+         mean of the frequency component of the frequency domain angular velocity signal on the X axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-meanFreq()-X)
 
 Variable 68. frequencyDomainBodyGyromeanFreqYaxis
 
-          mean of the frequency component of the frequency (F in the name) domain angular velocity signal on the Y axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-meanFreq()-Y)
+          mean of the frequency component of the frequency domain angular velocity signal on the Y axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-meanFreq()-Y)
 
 Variable 69. frequencyDomainBodyGyromeanFreqZaxis
 
-          mean of the frequency component of the frequency (F in the name) domain angular velocity signal on the Z axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-meanFreq()-Z)
+          mean of the frequency component of the frequency domain angular velocity signal on the Z axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-meanFreq()-Z)
 
 Variable 70. frequencyDomainBodyAccMagmean
  
-          mean of the magnitude of the frequency (F in the name) domain body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyAccMag-mean())
+          mean of the magnitude of the frequency domain body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyAccMag-mean())
 
 Variable 71. frequencyDomainBodyAccMagstd
 
-         std of the magnitude of the frequency (F in the name) domain body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyAccMag-std())
+         std of the magnitude of the frequency domain body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyAccMag-std())
 
 Variable 72. frequencyDomainBodyAccMagmeanFreq
 
-         mean of the frequency component of the frequency (F in the name) domain body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyAccMag-meanFreq())
+         mean of the frequency component of the frequency domain body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyAccMag-meanFreq())
 
 Variable 73. frequencyDomainBodyBodyAccJerkMagmean
 
-         mean of the Fast Fourier Transform of the frequency (F in the name) domain body body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyBodyAccJerkMag-mean())
+         mean of the Fast Fourier Transform of the frequency domain body body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyBodyAccJerkMag-mean())
 
 Variable 74. frequencyDomainBodyBodyAccJerkMagstd
 
-          std of the Fast Fourier Transform of the frequency (F in the name) domain body body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyBodyAccJerkMag-std())
+          std of the Fast Fourier Transform of the frequency domain body body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyBodyAccJerkMag-std())
 
 Variable 75. frequencyDomainBodyBodyAccJerkMagmeanFreq
 
-         mean of the frequency component of the Fast Fourier Transform of the magnitude of the frequency (F in the name) domain body body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyBodyAccJerkMag-meanFreq())
+         mean of the frequency component of the Fast Fourier Transform of the magnitude of the frequency domain body body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyBodyAccJerkMag-meanFreq())
 
 Variable 76. frequencyDomainBodyBodyGyroMagmean
 
-       mean of the magnitude of the frequency (F in the name) domain body body angular velocity coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroMag-mean())
+       mean of the magnitude of the frequency domain body body angular velocity coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroMag-mean())
 
 Variable77. frequencyDomainBodyBodyGyroMagstd
 
-        std of the magnitude of the frequency (F in the name) domain body body angular velocity signal coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroMag-std())
+        std of the magnitude of the frequency domain body body angular velocity signal coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroMag-std())
 
 Variable 78. frequencyDomainBodyBodyGyroMagmeanFreq
 
-          mean of the frequency component of the magnitude of the frequency (F in the name) domain body body angular velocity signal coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroMag-meanFreq())
+          mean of the frequency component of the magnitude of the frequency domain body body angular velocity signal coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroMag-meanFreq())
 
 Variable 79. frequencyDomainBodyBodyGyroJerkMagmean
  
-          mean of the Fast Fourier Transform of the magnitude of the frequency (F in the name) domain body body angular velocity signal coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroJerkMag-mean())
+          mean of the Fast Fourier Transform (Jerk) of the magnitude of the frequency domain body body angular velocity signal coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroJerkMag-mean())
          
 Variable 80. frequencyDomainBodyBodyGyroJerkMagstd 
 
-          std of the Fast Fourier Transform of the magnitude of the frequency (F in the name) domain body body angular velocity signal coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroJerkMag-std())
+          std of the Fast Fourier Transform (Jerk) of the magnitude of the frequency domain body body angular velocity signal coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroJerkMag-std())
 
 Variable 81. frequencyDomainBodyBodyGyroJerkMagmeanFreq
 
-           mean of the frequency component of the Fast Fourier Transform of the magnitude of the frequency (F in the name) domain body body angular velocity signal coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroJerkMag-meanFreq())
+           mean of the frequency component of the Fast Fourier Transform (Jerk) of the magnitude of the frequency domain body body angular velocity signal coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroJerkMag-meanFreq())
