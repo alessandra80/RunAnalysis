@@ -1,13 +1,13 @@
-#setting wd to test directory cointaining "test" files
-setwd("./run_analysis/UCI HAR Dataset/test")
+#setting wd to "test" directory inside UCI HAR Dataset directory
+setwd("UCI HAR Dataset/test")
 #listing files in test directory
-listTest <- list.files()
+listTest <- list.files(pattern ="_")
 #reading text files in listTest and binding by column
 testDF<-do.call("cbind", lapply(listTest, read.table))
-#setting wd to train directory containing "train" files 
+#setting wd to "train" directory
 setwd("../train")
 #listing files in train directory
-listTrain <- list.files()
+listTrain <- list.files(pattern = "_")
 #reading train files in listTrain and binding by column
 trainDF<-do.call("cbind", lapply(listTrain, read.table))
 #binding by row the two DF
@@ -16,26 +16,33 @@ testTrain <- rbind(testDF, trainDF)
 setwd("..")
 #reading text file containing features names
 featName <- read.table("features.txt")
-#assigning columns name to the testTrain DF
+#assigning columns name  
 colnames(testTrain) <- c("subject",as.character(featName[,2]), "activity")
 #selecting the first and the last columns and those featuring mean and std values
 dataSelect <- testTrain[,grep("subject|mean|std|activity", colnames(testTrain))]
 #reading labels name inside activity_labels file
 actLabels <- read.table("activity_labels.txt", colClasses = c(rep("NULL", 1), rep("character", 1)))
-#creating a vector with the content of the activity column (number from 1 to 6 corresponding 
-#to the six activities listed in the activity_labels.txt file)
+#creating a vector with the content of the Activity column (number from 1 to 6 corresponding to the six activity )
 numberLabels <- dataSelect[,"activity"] 
-#replacing numbers with the name of the activities present in the actLabels vector
+#replacing numbers inside numberLabels with the name of the activities present in the actLabels vector
 for(i in 1:6){
   numberLabels1 <-replace(numberLabels, numberLabels==i,actLabels[i,1])
   numberLabels <- numberLabels1
 }
-#replacing the numeric activity column in dataSelect with the character vector numberLabels
+#replacing the numeric Activity column in dataSelect with the character vector numberLabels
 dataSelect <- replace(dataSelect, "activity", numberLabels)
-#reading the file where there are the new variable names
-descripName <- read.table("features_Names.txt")
-#renaming the columns of the data frame 
-colnames(dataSelect) <- c(as.character(descripName[,1]))
+#creating a character vector with column names
+nmCo <- names(dataSelect)
+#creating two character vectors: the first contain the part of col names I would like
+#to replace and the second the replacing string
+vec <- c("-mean()", "-std()", "-X", "-Y", "-Z", "-meanFreq()", "tBo", "fBo", "tGr", "fGr")
+vec1 <- c("mean", "std", "Xaxis", "Yaxis", "Zaxis", "meanFreq", "timeDomainBo", "frequencyDomainBo", "timeDomainGr", "frequencyDomainGr")
+#assigning the new column names to the vector nmCo
+for(i in 1:10){
+nmCo1 <- gsub(vec[i], vec1[i], nmCo, fixed = TRUE)
+nmCo <- nmCo1}
+#assigning the names in nmCo to the column in dataSelect
+colnames(dataSelect) <- nmCo
 library(data.table)
 library(tidyr)
 library(dplyr)
@@ -52,4 +59,4 @@ summarized <- summarise_each(grouped, funs(mean))
 #writing a table to submit the tidy data set to coursera
 write.table(summarized, file= "tidy_dataset.txt", row.name=FALSE)
 
-setwd("~/")
+setwd("..")
