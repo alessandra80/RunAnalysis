@@ -255,100 +255,98 @@ Variable 57. frequencyDomainBodyAccJerkstdZaxis
 
         std of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-std()-Z)
 
-Variable 58. meanXaxisFourierFBodyAccelerationFrComponent 
+Variable 58. frequencyDomainBodyAccJerkmeanFreqXaxis 
 
          mean of the frequency component of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the X axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-meanFreq()-X)
 
-Variable 59. meanYaxisFourierFBodyAccelerationFrComponent
+Variable 59. frequencyDomainBodyAccJerkmeanFreqYaxis
 
         mean of the frequency component of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-meanFreq()-Y)
 
-Variable 60. meanZaxisFourierFBodyAccelerationFrComponent
+Variable 60. frequencyDomainBodyAccJerkmeanFreqZaxis
 
          mean of the frequency component of the Fast Fourier Transform of the frequency (F in the name) domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named fBodyAccJerk-meanFreq()-Z)
 
-Variable 61. meanXaxisFBodyAngularVelocity
+Variable 61. frequencyDomainBodyGyromeanXaxis
 
          mean of the frequency (F in the name) domain angular velocity signal on the X axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-mean()-X)
 
-Variable 62. meanYaxisFBodyAngularVelocity
+Variable 62. frequencyDomainBodyGyromeanYaxis
 
          mean of the frequency (F in the name) domain angular velocity signal on the Y axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-mean()-Y)
 
-Variable 63. meanZaxisFBodyAngularVelocity
+Variable 63. frequencyDomainBodyGyromeanZaxis
 
         mean of the frequency (F in the name) domain angular velocity signal on the Z axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-mean()-Z)
 
-Variable 64. stdXaxisFBodyAngularVelocity
+Variable 64. frequencyDomainBodyGyrostdXaxis
 
          std of the frequency (F in the name) domain angular velocity signal on the X axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-std()-X)
 
-Variable 65. stdYaxisFBodyAngularVelocity
+Variable 65. frequencyDomainBodyGyrostdYaxis
 
           std of the frequency (F in the name) domain angular velocity signal on the Y axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-std()-Y)
 
-Variable 66. stdZaxisFBodyAngularVelocity
+Variable 66. frequencyDomainBodyGyrostdZaxis
 
          std of the frequency (F in the name) domain angular velocity signal on the Z axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-std()-Z)
 
-Variable 67. meanXaxisFBodyAngularVelocityFrComponent
+Variable 67. frequencyDomainBodyGyromeanFreqXaxis
 
          mean of the frequency component of the frequency (F in the name) domain angular velocity signal on the X axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-meanFreq()-X)
 
-Variable 68. meanYaxisFBodyAngularVelocityFrComponent
+Variable 68. frequencyDomainBodyGyromeanFreqYaxis
 
           mean of the frequency component of the frequency (F in the name) domain angular velocity signal on the Y axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-meanFreq()-Y)
 
-Variable 69. meanZaxisFBodyAngularVelocityFrComponent
+Variable 69. frequencyDomainBodyGyromeanFreqZaxis
 
           mean of the frequency component of the frequency (F in the name) domain angular velocity signal on the Z axis coming from the mobile phone gyroscope (feature previously named fBodyGyro-meanFreq()-Z)
 
-Variable 70. meanFBodyAccelerationMagn
+Variable 70. frequencyDomainBodyAccMagmean
  
           mean of the magnitude of the frequency (F in the name) domain body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyAccMag-mean())
 
-Variable 71. stdFBodyAccelerationMagn
+Variable 71. frequencyDomainBodyAccMagstd
 
          std of the magnitude of the frequency (F in the name) domain body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyAccMag-std())
 
-Variable 72. meanFBodyAccelerationMagnFrComponent
+Variable 72. frequencyDomainBodyAccMagmeanFreq
 
          mean of the frequency component of the frequency (F in the name) domain body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyAccMag-meanFreq())
 
-Variable 73. meanFourierFBodyBodyAccelerationMagn
-
-         meanZaxisFourierFBodyAcceleration
+Variable 73. frequencyDomainBodyBodyAccJerkMagmean
 
          mean of the Fast Fourier Transform of the frequency (F in the name) domain body body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyBodyAccJerkMag-mean())
 
-Variable 74. stdFourierFBodyBodyAccelerationMagn
+Variable 74. frequencyDomainBodyBodyAccJerkMagstd
 
           std of the Fast Fourier Transform of the frequency (F in the name) domain body body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyBodyAccJerkMag-std())
 
-Variable 75. meanFourierFBodyBodyAccelerationMagnFrComponent
+Variable 75. frequencyDomainBodyBodyAccJerkMagmeanFreq
 
          mean of the frequency component of the Fast Fourier Transform of the magnitude of the frequency (F in the name) domain body body acceleration signal coming from the mobile phone accelerometer (feature previously named fBodyBodyAccJerkMag-meanFreq())
 
-Variable 76. meanFBodyBodyAngularVelocityMagn
+Variable 76. frequencyDomainBodyBodyGyroMagmean
 
        mean of the magnitude of the frequency (F in the name) domain body body angular velocity coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroMag-mean())
 
-Variable77. stdFBodyBodyAngularVelocityMagn
+Variable77. frequencyDomainBodyBodyGyroMagstd
 
         std of the magnitude of the frequency (F in the name) domain body body angular velocity signal coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroMag-std())
 
-Variable 78. meanFBodyBodyAngularVelocityMagnFrComponent
+Variable 78. frequencyDomainBodyBodyGyroMagmeanFreq
 
           mean of the frequency component of the magnitude of the frequency (F in the name) domain body body angular velocity signal coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroMag-meanFreq())
 
-Variable 79. meanFourierFBodyBodyAngularVelocityMagn
+Variable 79. frequencyDomainBodyBodyGyroJerkMagmean
  
           mean of the Fast Fourier Transform of the magnitude of the frequency (F in the name) domain body body angular velocity signal coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroJerkMag-mean())
          
-Variable 80. stdFourierFBodyBodyAngularVelocityMagn 
+Variable 80. frequencyDomainBodyBodyGyroJerkMagstd 
 
           std of the Fast Fourier Transform of the magnitude of the frequency (F in the name) domain body body angular velocity signal coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroJerkMag-std())
 
-Variable 81. meanFourierFBodyBodyAngularVelocityMagnFrComponent
+Variable 81. frequencyDomainBodyBodyGyroJerkMagmeanFreq
 
            mean of the frequency component of the Fast Fourier Transform of the magnitude of the frequency (F in the name) domain body body angular velocity signal coming from the mobile phone gyroscope (feature previously named fBodyBodyGyroJerkMag-meanFreq())
