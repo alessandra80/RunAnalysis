@@ -56,7 +56,5 @@ grouped <- group_by(arranged, subject, activity)
 #summarizing the value of the variables to a single mean() value calculated
 #for each subject and each activity
 summarized <- summarise_each(grouped, funs(mean))
-#writing a table to submit the tidy data set to coursera
-write.table(summarized, file= "tidy_dataset.txt", row.name=FALSE)
 
 setwd("..")
