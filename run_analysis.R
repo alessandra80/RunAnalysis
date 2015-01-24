@@ -16,32 +16,32 @@ testTrain <- rbind(testDF, trainDF)
 setwd("..")
 #reading text file containing features names
 featName <- read.table("features.txt")
-#assigning columns name  
+#assigning column's names to testTrain DF 
 colnames(testTrain) <- c("subject",as.character(featName[,2]), "activity")
 #selecting the first and the last columns and those featuring mean and std values
 dataSelect <- testTrain[,grep("subject|mean|std|activity", colnames(testTrain))]
 #reading labels name inside activity_labels file
 actLabels <- read.table("activity_labels.txt", colClasses = c(rep("NULL", 1), rep("character", 1)))
-#creating a vector with the content of the Activity column (number from 1 to 6 corresponding to the six activity )
+#creating a vector with the content of the activity column (number from 1 to 6 corresponding to the six activity )
 numberLabels <- dataSelect[,"activity"] 
 #replacing numbers inside numberLabels with the name of the activities present in the actLabels vector
 for(i in 1:6){
   numberLabels1 <-replace(numberLabels, numberLabels==i,actLabels[i,1])
   numberLabels <- numberLabels1
 }
-#replacing the numeric Activity column in dataSelect with the character vector numberLabels
+#replacing the numeric activity column in dataSelect with the character vector numberLabels
 dataSelect <- replace(dataSelect, "activity", numberLabels)
-#creating a character vector with column names
+#creating a character vector with the column names of dataSelect
 nmCo <- names(dataSelect)
-#creating two character vectors: the first contain the part of col names I would like
-#to replace and the second the replacing string
+#creating two character vectors: the first containing column names parts in dataSelect I would like
+#to replace and the second the replacing strings
 vec <- c("-mean()", "-std()", "-X", "-Y", "-Z", "-meanFreq()", "tBo", "fBo", "tGr", "fGr")
 vec1 <- c("mean", "std", "Xaxis", "Yaxis", "Zaxis", "meanFreq", "timeDomainBo", "frequencyDomainBo", "timeDomainGr", "frequencyDomainGr")
-#assigning the new column names to the vector nmCo
+#replacing in nmCo the parts corresponding to the the strings of vec with the strings in vec1
 for(i in 1:10){
 nmCo1 <- gsub(vec[i], vec1[i], nmCo, fixed = TRUE)
 nmCo <- nmCo1}
-#assigning the names in nmCo to the column in dataSelect
+#assigning the new names in nmCo to the column names in dataSelect
 colnames(dataSelect) <- nmCo
 library(data.table)
 library(tidyr)
