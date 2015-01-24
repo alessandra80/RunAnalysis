@@ -3,11 +3,11 @@ Code Book
 For the Coursera project we need to join together the files in the test and train folders and after to select only the columns representing the mean and the standard deviation (std) of the variables. So, I choose don't include in the joining process the Inertial Signals folders as they don't contain neither the mean nor the standard deviation for those Signals.  
 Once the data joined, the columns of the resulting Data Frame have been renamed using descriptive names. For the column containing the number of the subjects involved in the experiments (n=30) the name was "subject", for the columns containin the data of the 561-feature vector, it has been used the names inside features.txt file and for the column in which there was the labels for the 6 activities performed by the subject, the name was "activity".
 
-Following, only the columns featuring "mean" and "std" in the names have been selected and the number of the labels in the "activity" column have been replaced with the activities names (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS).
+Following, only the columns featuring "mean" and "std" in the names have been selected and the number of the labels in the "activity" column have been replaced with the corresponding activities names (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS).
 
-All the column names between "subject" and "activity" have been substituted with descriptive names that were in a text file created by myself.
+All the column names between "subject" and "activity" have been substituted with descriptive names that have been created modifing the column names in the last data frame the code produced.
 
-Tha data frame has been transformed in a data table and the "subject" and "activity" columns arranged (this a personal choice. According to me the data table was tidier if the subject's numbers were in crescent order and the activities in alphabetic order).
+So, the renamed data frame has been transformed in a data table and the "subject" and "activity" columns arranged (this a personal choice. According to me the data table was tidier if the subject's numbers were in crescent order and the activities in alphabetic order).
 
 At the end, the data has been grouped by the previous arranged "subject" and "activity" and summarized by calculating the mean of each variable.
 
@@ -30,9 +30,9 @@ Variable 2. activity
 	     WALKING_DOWNSTAIRS
 	     WALKING_UPSTAIRS
 	     
-The following 79 variables represent the mean() of the mean or standard deviation (std()) values of some features that have been originally selected for the experiments.
+The following 79 variables represent the summarized mean() of the variables that are in the column names. For each variables names I provide the meaning.
 
-As the original data were been normalised and bounded within [-1,1] the results from which we started to make the course project were unitlless. Consequently, also the new values of the variables are unitlless.
+As the original data were been normalised and bounded within [-1,1] the results from which we started to make the course project were unitlless. Consequently, also the new values of these 79 variables are unitlless.
 
 
 Variable 3. meanXaxisTBodyAcceleration
