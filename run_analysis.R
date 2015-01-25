@@ -36,7 +36,7 @@ nmCo <- names(dataSelect)
 #creating two character vectors: the first containing column names parts in dataSelect I would like
 #to replace and the second the replacing strings
 vec <- c("-mean()", "-std()", "-X", "-Y", "-Z", "-meanFreq()", "tBo", "fBo", "tGr", "fGr")
-vec1 <- c("mean", "std", "Xaxis", "Yaxis", "Zaxis", "meanFreq", "timeDomainBo", "frequencyDomainBo", "timeDomainGr", "frequencyDomainGr")
+vec1 <- c("Mean", "Std", "Xaxis", "Yaxis", "Zaxis", "meanFreq", "timeDomainBo", "frequencyDomainBo", "timeDomainGr", "frequencyDomainGr")
 #replacing in nmCo the parts corresponding to the the strings of vec with the strings in vec1
 for(i in 1:10){
 nmCo1 <- gsub(vec[i], vec1[i], nmCo, fixed = TRUE)
