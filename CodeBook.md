@@ -45,7 +45,7 @@ Variable 4. timeDomainBodyAccMeanYaxis
 
 	mean of the time domain body acceleration signal on the Y axis coming from the mobile phone accelerometer (feature previously named tBodyAcc-mean()-Y)
 
-Variable 5. timeDomainBodyAccmeanZaxis
+Variable 5. timeDomainBodyAccMeanZaxis
 
 	mean of the time domain body acceleration signal on the Z axis coming from the mobile phone accelerometer (feature previously named tBodyAcc-mean()-Z)
 
@@ -173,7 +173,7 @@ Variable 36. timeDomainGravityAccMagStd
 
          std of the magnitude of the time domain gravity acceleration signal coming from the mobile phone accelerometer (feature previously named tGravityAccMag-std())
 
-Variable 37. timeDomainBodyAccJerkMagmean
+Variable 37. timeDomainBodyAccJerkMagMean
 
         mean of the magnitude of the derived in time (Jerk) body acceleration signal (time domain signal) coming from the mobile phone accelerometer (feature previously named tBodyAccJerkMag-mean())
 
