@@ -28,5 +28,5 @@ At the end it sets the column names of dataSelect to be the character strings in
 
 Subsequently, it transforms the Data Frame in a Data Table by the function tbl_df() so it can apply dplyr and tidyr function on it.
 
-As last steps, the code applies the arrange() and group_by() functions to the Data Table-Data frame arranging and grouping by the "subject" and "activity" columns. Eventually It summarize each column by calculating the average (mean()) of each variable for each activity and each subjects.  
+As last steps, the code applies the arrange() and group_by() functions to the Data Table-Data frame arranging and grouping by the "subject" and "activity" columns. Eventually It summarize each column by calculating the average (mean()) of each variable for each activity and each subject.  
 
