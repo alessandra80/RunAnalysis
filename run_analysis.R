@@ -16,13 +16,13 @@ testTrain <- rbind(testDF, trainDF)
 setwd("..")
 #reading text file containing features names
 featName <- read.table("features.txt")
-#assigning column's names to testTrain DF 
+#assigning column names to testTrain DF 
 colnames(testTrain) <- c("subject",as.character(featName[,2]), "activity")
 #selecting the first and the last columns and those featuring mean and std values
 dataSelect <- testTrain[,grep("subject|mean|std|activity", colnames(testTrain))]
 #reading labels name inside activity_labels file
 actLabels <- read.table("activity_labels.txt", colClasses = c(rep("NULL", 1), rep("character", 1)))
-#creating a vector with the content of the activity column (number from 1 to 6 corresponding to the six activity )
+#creating a vector with the content of the activity column (number from 1 to 6 corresponding to the six activity labels)
 numberLabels <- dataSelect[,"activity"] 
 #replacing numbers inside numberLabels with the name of the activities present in the actLabels vector
 for(i in 1:6){
@@ -41,7 +41,7 @@ vec1 <- c("Mean", "Std", "Xaxis", "Yaxis", "Zaxis", "meanFreq", "timeDomainBo", 
 for(i in 1:10){
 nmCo1 <- gsub(vec[i], vec1[i], nmCo, fixed = TRUE)
 nmCo <- nmCo1}
-#assigning the new names in nmCo to the column names in dataSelect
+#assigning the new names in nmCo to the columns in dataSelect
 colnames(dataSelect) <- nmCo
 library(data.table)
 library(tidyr)
@@ -56,5 +56,5 @@ grouped <- group_by(arranged, subject, activity)
 #summarizing the value of the variables to a single mean() value calculated
 #for each subject and each activity
 summarized <- summarise_each(grouped, funs(mean))
-
+#setting wd to the initial wd
 setwd("..")
