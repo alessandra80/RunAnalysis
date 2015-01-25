@@ -1,5 +1,5 @@
 # RunAnalysis
-README file for the course project of Getting and Cleaning data.
+README file for the project of Getting and Cleaning data course.
 
 To start to manipulate the data, the code sets the wd to the "test" directory present inside the "UCI HAR Dataset" directory. It lists the files within the directory using the list.files() function but keeping out the files within the "Inertial signals" directory by setting the pattern argument as "_". 
 Indeed, following I will have to select only the measurement on the mean and standard deviation and these functions (mean() and std()) have not been applied to "inertials signals" so, in my opinion, we don't need the folders containing that data. 
@@ -8,12 +8,12 @@ After, the code reads the files present in the list with the function read.table
 At this point I write a code to do the same with the files that are in the "train" directory.
 The code first set the new wd being the "train" directory and after It applies the same functions that before.
 
-Up to now the code produced two data frames: one with the "test" data and another one with the "train" data.
+Up to now the code produced two data frames: one with the "test" data (testDF) and another one with the "train" data (trainDF).
 As they contain the same variables (subject, x vector and y in this order) the code binds them by row with the rbind() function and produce a data frame I named testTrain. 
 
-At this point I wanted to give variable names to the columns of the new "row-bound" Data Frame.
-I decided to give the name "subject" to the first column as it contains tha number assigned at each subject, and "activity" to the last column as it contains the labels for the six activities done by each subject. 
-For the columns between the first and the last (from 2 to 362), I used the feature names listed in the features.txt file.  
+At this point I wanted to give variable names to the testTrain columns.
+I decided to give the name "subject" to the first column as it contains tha number assigned at each subject involved in the experiments, and "activity" to the last column as it contains the labels for the six activities done by each subject. 
+For the columns between the first and the last (from 2 to 363), I used the feature names listed in the features.txt file.  
 To do all that, the code set the wd to the main "UCI HAR Dataset" directory and by read.table() reads the features.txt file to have the names of columns from 2 to 362. 
 To assign the column names to the Data Frame, the code uses a character vector cointaining "subject", the feature names and "activity".
 
